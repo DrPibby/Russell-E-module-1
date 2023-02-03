@@ -62,17 +62,20 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .benefits {
@@ -84,21 +87,30 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
 }
 
-.benefit-lead {
+.benefit-tab h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-tab img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-tab {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefit-lead h3 {
@@ -134,7 +146,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+
+.left-tab {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,47 +156,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.left-tab img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.left-tab h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
